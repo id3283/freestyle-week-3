@@ -4,17 +4,15 @@ public class Errors {
 
     public static void main(String[] args)  {
 
-        String[] names = {"Yahir", "Behlul"};
+        String[] quotes = {"To be or not", "I'm not dead yet"};
+
+        int userChoice = 3;
 
         try {
-            System.out.println("Entering try block");
-
-            System.out.println(names[2]);
-            System.out.println("Exiting try block");
+            System.out.println(quotes[userChoice]);
         }
         catch (ArrayIndexOutOfBoundsException indexScrewUp) {
             System.out.println("Bad index: " + indexScrewUp.getMessage() );
-            System.out.println("Can't print that student... continuing.");
         }
 
     }
