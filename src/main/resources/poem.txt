@@ -1,5 +1,4 @@
 Roses are red.
-
 Violets are blue.
 I write code.
 and so do you.
