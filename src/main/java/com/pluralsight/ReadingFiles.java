@@ -20,7 +20,7 @@ public class ReadingFiles {
                 System.out.println(line);
                 line = bufReader.readLine();
             }
-
+            bufReader.close();
         } catch (FileNotFoundException e) {
             System.out.println("Yo, no file named: " + e.getMessage());
         } catch (IOException e) {
